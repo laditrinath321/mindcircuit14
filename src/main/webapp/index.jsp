@@ -3,27 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trinath Ladi - Cloud DevOps Engineer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Trinath Ladi | Cloud DevOps Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0072ff, #00c6ff);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: white;
+            color: #0072ff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #00c6ff;
+            color: white;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-
-    <div class="bg-white shadow-lg rounded-lg p-8 max-w-lg text-center">
-        <h1 class="text-4xl font-bold text-gray-800">Trinath Ladi</h1>
-        <p class="text-lg text-gray-600 mt-2">Cloud DevOps Engineer</p>
-
-        <div class="mt-6">
-            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="mx-auto rounded-full border-4 border-blue-500">
-        </div>
-
-        <p class="text-gray-700 mt-4">
-            Passionate Cloud & DevOps Engineer with expertise in AWS, Kubernetes, Terraform, Jenkins, and CI/CD automation.
-        </p>
-
-        <div class="mt-6">
-            <a href="https://www.linkedin.com/in/trinathladi" class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700 transition">Connect on LinkedIn</a>
-        </div>
+<body>
+    <div class="container">
+        <h1>Trinath Ladi</h1>
+        <p>Cloud DevOps Engineer</p>
+        <a href="https://www.linkedin.com" class="btn">Connect with Me</a>
     </div>
-
 </body>
 </html>
